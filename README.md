@@ -1,5 +1,5 @@
 # Vote-India
-# Admin : Full-Stack BlockChain Voting System (repo link : https://github.com/Hassan010103/BlockChain-Voting-System)
+# 1) Admin : Full-Stack BlockChain Voting System (repo link : https://github.com/Hassan010103/BlockChain-Voting-System)
 
 ![image](https://github.com/user-attachments/assets/1e5a4fc0-c54d-40c0-9b05-92538b501872)
 
@@ -162,7 +162,7 @@ Ethers.js is used for interacting with the Ethereum blockchain, allowing the dAp
 
 ---
 
-# User Side : Indian Voting Management System (repo link : https://github.com/aftabansari2005/New-folder)
+# 2) User Side : Indian Voting Management System (repo link : https://github.com/aftabansari2005/New-folder)
 A comprehensive and secure web-based voting management system designed to streamline and enhance the voting process in India.
 
 #Features
