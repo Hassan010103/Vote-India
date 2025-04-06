@@ -162,81 +162,158 @@ Ethers.js is used for interacting with the Ethereum blockchain, allowing the dAp
 
 ---
 
-# 2) User Side : Indian Voting Management System (repo link : https://github.com/aftabansari2005/New-folder)
-A comprehensive and secure web-based voting management system designed to streamline and enhance the voting process in India.
 
-#Features
-Queue Management System
-Room-based voter grouping
-QR code-based voter identification
-Real-time queue status display
-Blockchain-based data integrity
-AES encryption for sensitive data
-Voter Authentication
-QR code verification
-Facial recognition system
-Multi-factor authentication
-Privacy-compliant identity verification
-# Technology Stack
-Frontend: React.js with TypeScript
-Backend: Node.js with Express
-Database: PostgreSQL
-Real-time Updates: WebSocket
-Security: Blockchain, AES encryption
-Authentication: JWT, MFA
-Security Features
-End-to-end encryption
-Multi-factor authentication
-Regular security audits
-Compliance with Indian data protection laws
-GDPR compliance
-User Experience
-Responsive design
-Accessibility compliance (WCAG)
-Real-time updates
-Intuitive interface
-Multi-language support
-# Project Structure
+# 2) User side : Indian Voting Management System
+
+> A comprehensive and secure web-based voting management system designed to streamline and enhance the voting process in India.
+
+## Repository Link
+[GitHub Repository](https://github.com/aftabansari2005/New-folder)
+
+---
+
+## Features
+
+### Queue Management System
+- Room-based voter grouping  
+- QR code-based voter identification  
+- Real-time queue status display  
+
+### Blockchain-based Data Integrity
+- AES encryption for sensitive data  
+
+### Voter Authentication
+- QR code verification  
+- Facial recognition system  
+- Multi-factor authentication  
+- Privacy-compliant identity verification  
+
+---
+
+## Technology Stack
+
+- **Frontend:** React.js with TypeScript  
+- **Backend:** Node.js with Express  
+- **Database:** PostgreSQL  
+- **Real-time Updates:** WebSocket  
+- **Security:** Blockchain, AES encryption  
+- **Authentication:** JWT, MFA  
+
+---
+
+## Security Features
+
+- End-to-end encryption  
+- Multi-factor authentication  
+- Regular security audits  
+- Compliance with Indian data protection laws  
+- GDPR compliance  
+
+---
+
+## User Experience
+
+- Responsive design  
+- Accessibility compliance (WCAG)  
+- Real-time updates  
+- Intuitive interface  
+- Multi-language support  
+
+---
+
+## Project Structure
+
+```
 voting-system/
 ├── frontend/           # React.js frontend application
-├── backend/           # Node.js backend application
-└── docs/             # Project documentation
-# Getting Started
-# Prerequisites
-Node.js (v18 or higher)
-PostgreSQL (v14 or higher)
-npm or yarn
-# Installation
-Clone the repository:
-git clone [repository-url]
+├── backend/            # Node.js backend application
+└── docs/               # Project documentation
+```
+
+---
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js (v18 or higher)  
+- PostgreSQL (v14 or higher)  
+- npm or yarn  
+
+---
+
+## Installation
+
+### Clone the Repository:
+
+```bash
+git clone https://github.com/aftabansari2005/New-folder
 cd voting-system
-# Install frontend dependencies:
+```
+
+### Install Frontend Dependencies:
+
+```bash
 cd frontend
 npm install
-# Install backend dependencies:
+```
+
+### Install Backend Dependencies:
+
+```bash
 cd ../backend
 npm install
-# Set up environment variables:
+```
+
+### Set up Environment Variables:
+
+```bash
 cp .env.example .env
-# Start the development servers:
-# Terminal 1 - Frontend
+```
+
+---
+
+## Start the Development Servers:
+
+### Terminal 1 - Frontend:
+
+```bash
 cd frontend
 npm run dev
+```
 
-# Terminal 2 - Backend
+### Terminal 2 - Backend:
+
+```bash
 cd backend
 npm run dev
-Security Considerations
-All sensitive data is encrypted using AES-256
-Blockchain technology ensures data integrity
-Regular security audits and penetration testing
-Compliance with Indian data protection laws
-Multi-factor authentication for admin access
-#Contributing
-Please read CONTRIBUTING.md for details on our code of conduct and the process for submitting pull requests.
+```
 
-# License
-This project is licensed under the MIT License - see the LICENSE.md file for details.
+---
 
-# Support
+## Security Considerations
+
+- All sensitive data is encrypted using AES-256  
+- Blockchain technology ensures data integrity  
+- Regular security audits and penetration testing  
+- Compliance with Indian data protection laws  
+- Multi-factor authentication for admin access  
+
+---
+
+## Contributing
+
+Please read `CONTRIBUTING.md` for details on our code of conduct and the process for submitting pull requests.
+
+---
+
+## License
+
+This project is licensed under the MIT License - see the `LICENSE.md` file for details.
+
+---
+
+## Support
+
 For support, please contact the development team or raise an issue in the repository.
+
