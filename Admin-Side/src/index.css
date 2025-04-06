@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body * {
+    @apply transition-colors duration-500;
+    /* @apply transition-colors ; */
+}
+
+.border-gradient-br-blue-green-gray-900 {
+    background: linear-gradient(to right, #18181B, #18181B),
+      linear-gradient(to bottom right, #60A5FA, #4ADE80);
+    background-clip: padding-box, border-box;
+    background-origin: padding-box, border-box;
+  }
+  
+  .hover\:border-gradient-tl-blue-green-gray-900:hover {
+    background: linear-gradient(to right, #18181B, #18181B),
+      linear-gradient(to top left, #60A5FA, #4ADE80);
+    background-clip: padding-box, border-box;
+    background-origin: padding-box, border-box;
+  }
+  
+  .gradient-border-3 {
+    border: 3px solid transparent;
+  }
+
+@keyframes pulse-in-out {
+  0%, 100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.2);
+    opacity: 0.8;
+  }
+}
+
+.animate-pulse-in-out {
+  animation: pulse-in-out 1.5s infinite;
+}
